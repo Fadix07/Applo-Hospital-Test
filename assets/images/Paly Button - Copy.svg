@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;fill-opacity:8.000000e-02;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-opacity:0.42;}
+	.st2{fill:#FFFFFF;fill-opacity:0.17;stroke:#FFFFFF;stroke-width:0.3;}
+	.st3{fill:#FFFFFF;}
+	.st4{fill:none;stroke:#3B3A5D;stroke-width:3;stroke-miterlimit:10;}
+</style>
+<g id="Paly_Button">
+	<g id="Background">
+		<circle class="st0" cx="59.7" cy="59.7" r="59.7"/>
+		<circle class="st1" cx="59.7" cy="59.7" r="59.5"/>
+	</g>
+	<circle id="Background_2" class="st2" cx="59.7" cy="59.7" r="47.8"/>
+	<circle id="Background_3" class="st3" cx="59.7" cy="59.7" r="36.3"/>
+	<path id="Pattern" class="st3" d="M0,0"/>
+</g>
+<path class="st4" d="M75,57.9L57.2,43.2c-1.8-1.5-4.5-0.2-4.5,2.1l0,29.4c0,2.3,2.7,3.6,4.5,2.1L75,62.2C76.4,61.1,76.4,59,75,57.9z
+	"/>
+</svg>
