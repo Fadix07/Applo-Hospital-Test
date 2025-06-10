@@ -1,602 +1,614 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Appolo Clinic UAE</title>
+		<link rel="icon" type="image/png" sizes="16x16" href="assets/images/appolo.png" />
+		<!--css-->
+		<link href="assets/css/bootstrap.rtl.min.css" rel="stylesheet" />
+		<link href="assets/css/style.css" rel="stylesheet" />
+		<link href="assets/css/aos.css" rel="stylesheet" />
+		<link href="assets/css/slick_slick.css" rel="stylesheet" />
+		<link href="assets/css/all.min.css" rel="stylesheet" />
+		<link href="assets/css/brands.min.css" rel="stylesheet" />
+		<link href="assets/css/solid.min.css" rel="stylesheet" />
+		<link href="assets/css/fontawesome.min.css" rel="stylesheet" />
+		<link href="assets/css/swiper.css" rel="stylesheet" />
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>H-Appolo Clinic</title>
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/appolo.png">
-    <!--css-->
-    <link href="assets/css/bootstrap.rtl.min.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/aos.css" rel="stylesheet">
-    <link href="assets/css/slick_slick.css" rel="stylesheet">
-    <link href="assets/css/all.min.css" rel="stylesheet">
-    <link href="assets/css/brands.min.css" rel="stylesheet">
-    <link href="assets/css/solid.min.css" rel="stylesheet">
-    <link href="assets/css/fontawesome.min.css" rel="stylesheet">
-    <link href="assets/css/swiper.css" rel="stylesheet">
+	<body>
+		<div class="toggle-menu-wrap">
+			<div class="col-12">
+				<ul>
+					<li>
+						<div class="btn-sidebar mx-lg-3 mx-0 loading">
+							<a
+								id="myButton"
+								class="toggle-btn"
+								data-bs-toggle="offcanvas"
+								href="#offcanvasExample"
+								role="button"
+								aria-controls="offcanvasExample"
+								><i class="fa fa-bars"></i
+							></a>
+						</div>
+					</li>
 
-</head>
+					<li class="hide-mobile">
+						<div class="btn-sidebar mx-lg-3 mx-0 loading">
+							<a href="#" class="btn-sidebar loading"
+								><img src="assets/images/icons8-whatsapp 1.svg"
+							/></a>
+						</div>
+					</li>
+					<li class="hide-mobile">
+						<div class="btn-sidebar mx-lg-3 mx-0 loading">
+							<a href="#" class="btn-sidebar loading"><img src="assets/images/icons8-chat 1.svg" /></a>
+						</div>
+					</li>
+					<li class="hide-mobile">
+						<div class="btn-sidebar mx-lg-3 mx-0 loading">
+							<a href="#" class="btn-sidebar loading"
+								><img src="assets/images/icons8-location 1.svg"
+							/></a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="col-12">
+				<ul>
+					<li class="hide-mobile">
+						<div class="btn-sidebar mx-lg-3 mx-0 loading">
+							<!-- <a href="#"><img src="assets/images/mode_comment.svg"></a> -->
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
 
-<body>
+		<div
+			class="offcanvas offcanvas-start custome-sidebar"
+			tabindex="-1"
+			id="offcanvasExample"
+			aria-labelledby="offcanvasExampleLabel"
+		>
+			<div class="offcanvas-body">
+				<div class="nav row d-flex">
+					<div class="menu-item">
+						<ul class="brder-sidebar">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="About-AHLL.html">About Us</a></li>
+							<li><a href="doctors.html">Doctor's</a></li>
+							<li><a href="our-facilities.html">Our Facilities</a></li>
+							<li><a href="specialities.html">Specialities</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+						<ul class="brder-sidebar">
+							<h3>Department</h3>
+							<li><a href="#">Consultations</a></li>
+							<li><a href="#">Diagnostics</a></li>
+							<li><a href="#">Diagnostics</a></li>
+							<li><a href="#">Laboratory</a></li>
+							<li><a href="#">Dental Care</a></li>
+						</ul>
+						<ul class="brder-sidebar">
+							<h3>Speciality Clinics</h3>
+							<li><a href="#">Gynaecology & Obstetrics</a></li>
+							<li><a href="#">Pediatrics</a></li>
+							<li><a href="#">General Medicine</a></li>
+							<li><a href="#">Dental</a></li>
+							<li><a href="#">Cardiology</a></li>
+							<li><a href="#">Pulmonology</a></li>
+						</ul>
+					</div>
+					<div class="col-12 p-0">
+						<div class="social-sidebar">
+							<ul>
+								<li>
+									<a href="https://www.instagram.com/apolloclinics/" target="_blank"
+										><img src="assets/images/icons8-instagram 1-sidebar.svg"
+									/></a>
+								</li>
+								<li>
+									<a href="https://www.youtube.com/@ApolloClinics" target="_blank"
+										><img src="assets/images/icons8-youtube 1-sidebar.svg"
+									/></a>
+								</li>
+								<li>
+									<a href="https://www.facebook.com/apolloclinickarama" target="_blank"
+										><img src="assets/images/icons8-facebook 1-sidebar.svg"
+									/></a>
+								</li>
+							</ul>
+							<div class="col-lg-10 col-9">
+								<p>© 2023, Apollo Health and Lifestyle Limited, All Rights Reserved.</p>
+							</div>
+						</div>
+						<div class="side-bar-footer">
+							<div class="sidebar-logo d-flex justify-content-end">
+								<div class="col-lg-6 col-6 mx-0">
+									<img class="w-100" src="assets/images/Logo-sidebar.svg" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-    <div class="toggle-menu-wrap">
-        <div class="col-12">
-            <ul>
-                <li>
-                    <div class="btn-sidebar mx-lg-3 mx-0 loading">
-                        <a id="myButton" class="toggle-btn" data-bs-toggle="offcanvas" href="#offcanvasExample"
-                            role="button" aria-controls="offcanvasExample"><i class="fa fa-bars"></i></a>
-                    </div>
-                </li>
+		<main class="Content">
+			<header>
+				<div class="container">
+					<div class="row d-flex align-content-center align-items-center space-fixed-header pt-3">
+						<div class="col-lg-2 col-4">
+							<div class="loading-head loading">
+								<a class="brand" href="index.html"><img src="assets/images/Logo.svg" /></a>
+							</div>
+						</div>
+						<div class="col-lg-2 col-6">
+							<div class="loading-head loading">
+								<a href="https://wa.me/+97146056056" class="btn-style large">Book an Appointment</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<section class="space-large-tb100 pt-lg-3 pt-5">
+				<div class="container">
+					<div class="loading breadcrumb-wrap">
+						<div class="row d-flex breadcrumb-row" data-aos="fade-up">
+							<nav aria-label="breadcrumb">
+								<ol class="breadcrumb">
+									<li class="breadcrumb-item">
+										<a href="index.html"><i class="fa fa-home"></i> Home</a>
+									</li>
+									<li class="breadcrumb-item active" aria-current="page">Specialities</li>
+								</ol>
+							</nav>
+							<div class="col-lg-12">
+								<div class="heading-main">
+									<h2>Specialities</h2>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
-                <li class="hide-mobile">
-                    <div class="btn-sidebar mx-lg-3 mx-0 loading">
-                        <a href="#" class=" btn-sidebar loading"><img src="assets/images/icons8-whatsapp 1.svg"></a>
-                    </div>
-                </li>
-                <li class="hide-mobile">
-                    <div class="btn-sidebar mx-lg-3 mx-0 loading">
-                        <a href="#" class=" btn-sidebar loading"><img src="assets/images/icons8-chat 1.svg"></a>
-                    </div>
-                </li>
-                <li class="hide-mobile">
-                    <div class="btn-sidebar mx-lg-3 mx-0 loading">
-                        <a href="#" class=" btn-sidebar loading"><img src="assets/images/icons8-location 1.svg"></a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class="col-12">
-            <ul>
-                <li class="hide-mobile">
-                    <div class="btn-sidebar mx-lg-3 mx-0 loading">
-                        <!-- <a href="#"><img src="assets/images/mode_comment.svg"></a> -->
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
+			<section class="space-large-tb100 py-5">
+				<div class="container">
+					<div class="row d-flex loading loading-box">
+						<div class="nav-page hiding-box" data-aos="fade-up">
+							<ul>
+								<li><a class="btn btn-primary" href="#" role="button">Consultations</a></li>
+								<li><a class="btn btn-primary" href="#" role="button">Diagnostics</a></li>
+								<li><a class="btn btn-primary" href="#" role="button">Health checkups</a></li>
+								<li><a class="btn btn-primary" href="#" role="button">Vaccinations</a></li>
+								<li><a class="btn btn-primary" href="#" role="button">Laboratory</a></li>
+								<li><a class="btn btn-primary active" href="#" role="button">Dental care</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
 
+			<section>
+				<div class="container">
+					<div class="row d-flex loading loading-box">
+						<div class="inner-banner hiding-box">
+							<img src="assets/images/Photo.jpg" data-aos="fade-up" />
+						</div>
+					</div>
+				</div>
+			</section>
 
-    <div class="offcanvas offcanvas-start custome-sidebar" tabindex="-1" id="offcanvasExample"
-        aria-labelledby="offcanvasExampleLabel">
-        <div class="offcanvas-body">
-            <div class="nav row d-flex">
+			<section>
+				<div class="container">
+					<div class="row d-flex">
+						<div class="col-lg-12 mx-auto">
+							<div class="heaidng-sub">
+								<div class="sub-head">
+									<div class="row d-flex align-content-center align-items-center">
+										<div class="col-lg-auto col-2">
+											<div class="loading loading-box">
+												<img
+													class="hiding-box"
+													data-aos="fade-up"
+													src="assets/images/icons8-syringe.svg"
+												/>
+											</div>
+										</div>
+										<div class="col-lg-6 col-6">
+											<div class="loading loading-box">
+												<h2 class="hiding-box" data-aos="fade-up">Dental Care</h2>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row d-flex loading loading-box">
+						<div class="col-lg-12 col-12 hiding-box" data-aos="fade-up">
+							<p>
+								A compassionate humanitarian, dedicated to bringing world-class healthcare within the
+								economic and geographic reach of millions of patients' best describes Dr. Prathap C
+								Reddy, Founder Chairman of the Apollo Hospitals Group.
+							</p>
 
-                <div class="menu-item">
-                    <ul class="brder-sidebar ">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="About-AHLL.html">About Us</a></li>
-                        <li><a href="doctors.html">Doctor's</a></li>
-                        <li><a href="our-facilities.html">Our Facilities</a></li>
-                        <li><a href="specialities.html">Specialities</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                    <ul class="brder-sidebar ">
-                      <h3> Department </h3>
-                        <li><a href="#">Consultations</a></li>
-                        <li><a href="#">Diagnostics</a></li>
-                        <li><a href="#">Diagnostics</a></li>
-                        <li><a href="#">Laboratory</a></li>
-                        <li><a href="#">Dental Care</a></li>
-                    </ul>
-                    <ul class="brder-sidebar ">
-                        <h3> Speciality Clinics </h3>
-                          <li><a href="#">Gynaecology & Obstetrics</a></li>
-                          <li><a href="#">Pediatrics</a></li>
-                          <li><a href="#">General Medicine</a></li>
-                          <li><a href="#">Dental</a></li>
-                          <li><a href="#">Cardiology</a></li>
-                          <li><a href="#">Pulmonology</a></li>
-                      </ul>
-                </div>
-                <div class="col-12 p-0">
-                    <div class="social-sidebar">
-                        <ul>
-                            <li><a href="https://www.instagram.com/apolloclinics/" target="_blank"><img src="assets/images/icons8-instagram 1-sidebar.svg"></a></li>
-                            <li><a href="https://www.youtube.com/@ApolloClinics" target="_blank"><img src="assets/images/icons8-youtube 1-sidebar.svg"></a></li>
-                            <li><a href="https://www.facebook.com/apolloclinickarama" target="_blank"><img src="assets/images/icons8-facebook 1-sidebar.svg"></a></li>
-                        </ul>
-                        <div class="col-lg-10 col-9">
-                            <p> © 2023, Apollo Health and Lifestyle Limited, All Rights Reserved.</p>
-                        </div>
-                    </div>
-                    <div class="side-bar-footer">
+							<p>
+								Dr. Reddy received his medical degree from the Stanley Medical College in Chennai and
+								later trained as a Cardiologist in the UK and USA. He did his Fellowship from the
+								Massachusetts General Hospital, Boston and went on to head several research programs at
+								the Missouri State Chest Hospital, USA where he worked for several years before
+								returning to India in 1971, at the behest of his father.
+							</p>
 
-                        <div class="sidebar-logo d-flex justify-content-end">
-                            <div class="col-lg-6 col-6 mx-0">
-                                <img class="w-100" src="assets/images/Logo-sidebar.svg">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+							<p>
+								This act of leading by example in reversing the brain drain eventually became an agenda
+								with Apollo Hospitals, India's first corporate hospital that heralded the country's
+								burgeoning private healthcare industry.
+							</p>
 
-    <main class="Content">
+							<p>
+								The dream of making world-class medical available in India spurred him to set up the
+								Apollo Hospitals in Chennai in 1983 at a time when private healthcare institutions were
+								virtually unknown in our country. The new hospital attracted the best medical talent,
+								including eminent non-resident Indian doctors from hospitals in the US and UK.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
 
-        <header>
-            <div class="container">
-                <div class="row d-flex align-content-center align-items-center space-fixed-header pt-3">
-                    <div class="col-lg-2 col-4">
-                        <div class="loading-head loading">
-                            <a class="brand" href="index.html"><img src="assets/images/Logo.svg"></a>
-                        </div>
+			<section class="space-large-tb50">
+				<div class="container">
+					<div class="row d-flex">
+						<div class="col-lg-12 col-md-12 caption-style loading loading-box">
+							<div class="card bg-theme p-5 jumbotron-fluid hiding-box">
+								<div class="container">
+									<p class="lead fw-bolder" data-aos="fade-up">
+										“Apollo Clinics was founded in 2002 with the aim “to bring healthcare of
+										international standards within the reach of every individual.” To achieve this,
+										Apollo Clinics run a large network of Apollo Clinics with over 102 clinics, both
+										owned and franchised in India and overseas.”
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
-                    </div>
-                    <div class="col-lg-2 col-6">
-                        <div class="loading-head loading">
-                            <a href="https://wa.me/+97146056056" class="btn-style large">Book an Appointment</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <section class="space-large-tb100 pt-lg-3 pt-5">
-            <div class="container">
-                <div class="loading breadcrumb-wrap">
-                    <div class="row d-flex breadcrumb-row" data-aos="fade-up">
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Specialities</li>
-                            </ol>
-                        </nav>
-                        <div class="col-lg-12">
-                            <div class="heading-main">
-                                <h2>Specialities</h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+			<section class="space-large-tb50">
+				<div class="container">
+					<div class="row d-flex">
+						<div class="col-lg-12 mx-auto">
+							<div class="heaidng-sub loading loading-box">
+								<div class="sub-head hiding-box">
+									<div class="row d-flex" data-aos="fade-up">
+										<div class="col-lg-6 col-6">
+											<h2>We are specialised in</h2>
+										</div>
+										<div class="col-lg-12">
+											<p>
+												A compassionate humanitarian, dedicated to bringing world-class
+												healthcare within the economic and geographic reach of millions of
+												patients' best describes Dr. Prathap C Reddy, Founder Chairman of the
+												Apollo Hospitals Group.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="space-large-tb50">
+				<div class="container">
+					<div class="row d-flex">
+						<div class="col-lg-6 col-12" data-aos="fade-up">
+							<div class="Card-type2 loading loading-box">
+								<div class="card p-lg-5 p-5 hiding-box">
+									<h2>We are specialised in</h2>
+									<p>
+										Apollo Clinics was founded in 2002 with the aim “to bring healthcare of
+										international standards within the reach of every individual.” To achieve this,
+										Apollo Clinics run a large network of Apollo Clinics with over 102 clinics, both
+										owned and franchised in India and overseas. Apollo Clinics was founded in 2002
+										with the aim “to bring healthcare of international standards within the reach of
+										every individual.” To achieve this, Apollo Clinics run a large network of Apollo
+										Clinics with over 102 clinics, both owned and franchised in India and overseas.
+										<br />
+										Apollo Clinics was founded in 2002 with the aim “to bring healthcare of
+										international standards within the reach of every individual.” To achieve this,
+										Apollo Clinics run a large network of Apollo Clinics with over 102 clinics, both
+										owned and franchised in India and overseas.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-12" data-aos="fade-up">
+							<div class="Card-type2 loading loading-box">
+								<div class="card p-lg-5 p-5 hiding-box">
+									<h2>We are specialised in</h2>
+									<p>
+										Apollo Clinics was founded in 2002 with the aim “to bring healthcare of
+										international standards within the reach of every individual.” To achieve this,
+										Apollo Clinics run a large network of Apollo Clinics with over 102 clinics, both
+										owned and franchised in India and overseas. Apollo Clinics was founded in 2002
+										with the aim “to bring healthcare of international standards within the reach of
+										every individual.” To achieve this, Apollo Clinics run a large network of Apollo
+										Clinics with over 102 clinics, both owned and franchised in India and overseas.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
-        <section class="space-large-tb100 py-5">
-            <div class="container">
-                <div class="row d-flex loading loading-box">
-                    <div class="nav-page  hiding-box"  data-aos="fade-up">
-                        <ul>
-                            <li><a class="btn btn-primary" href="#" role="button">Consultations</a></li>
-                            <li><a class="btn btn-primary" href="#" role="button">Diagnostics</a></li>
-                            <li><a class="btn btn-primary" href="#" role="button">Health checkups</a></li>
-                            <li><a class="btn btn-primary" href="#" role="button">Vaccinations</a></li>
-                            <li><a class="btn btn-primary" href="#" role="button">Laboratory</a></li>
-                            <li><a class="btn btn-primary  active" href="#" role="button">Dental care</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
+			<section class="space-large-tb50">
+				<div class="container">
+					<div class="row d-flex">
+						<div class="col-lg-12 mx-auto">
+							<div class="heaidng-sub loading loading-box">
+								<div class="sub-head hiding-box">
+									<div class="row d-flex" data-aos="fade-up">
+										<div class="col-lg-6 col-6">
+											<h2>Apollo Cilinics</h2>
+										</div>
+										<div class="col-lg-12">
+											<p>
+												“Apollo Clinics was founded in 2002 with the aim “to bring healthcare of
+												international standards within the reach of every individual.” To
+												achieve this, Apollo Clinics run a large network of Apollo Clinics with
+												over 102 clinics, both owned and franchised in India and overseas.”
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row d-flex mt-5">
+						<div class="widget-list-numberic loading loading-box col-12 mx-auto" data-aos="fade-up">
+							<ul type="1" class="list-group hiding-box mx-auto">
+								<li class="list-group-item">
+									<p>Leverage agile frameworks to provide a robust</p>
+								</li>
+								<li class="list-group-item">
+									<p>Synopsis for high level overviews.</p>
+								</li>
+								<li class="list-group-item">
+									<p>Provide a robust synopsis for high level overviews.</p>
+								</li>
+								<li class="list-group-item">
+									<p>Heading towards a streamlined cloud solution</p>
+								</li>
+								<li class="list-group-item">
+									<p>Heading towards a streamlined cloud solution</p>
+								</li>
+								<li class="list-group-item">
+									<p>Leverage agile frameworks to provide a robust</p>
+								</li>
+								<li class="list-group-item">
+									<p>Synopsis for high level overviews.</p>
+								</li>
+								<li class="list-group-item">
+									<p>Provide a robust synopsis for high level overviews.</p>
+								</li>
+								<li class="list-group-item">
+									<p>Heading towards a streamlined cloud solution</p>
+								</li>
+								<li class="list-group-item">
+									<p>Heading towards a streamlined cloud solution</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
 
-        <section>
-            <div class="container">
-                <div class="row d-flex loading loading-box">
-                    <div class="inner-banner  hiding-box">
-                        <img src="assets/images/Photo.jpg" data-aos="fade-up">
-                    </div>
-                </div>
-            </div>
-        </section>
+			<section class="space-large-tb100 space-mobile-py-60">
+				<div class="container loading loading-box">
+					<div class="row d-flex hiding-box" data-aos="fade-up">
+						<div class="col-lg-4 col-6 mb-3">
+							<a href="specialities.html" class="short-cardicon">
+								<div class="card">
+									<img src="assets/images/icons8-pregnant.svg" />
+									<h2>Gynaecology & <br />Obstetrics</h2>
+								</div>
+							</a>
+						</div>
+						<div class="col-lg-4 col-6 mb-3">
+							<a href="specialities.html" class="short-cardicon">
+								<div class="card">
+									<img src="assets/images/icons8-baby.svg" />
+									<h2>Pediatrics</h2>
+								</div>
+							</a>
+						</div>
+						<div class="col-lg-4 col-6 mb-3">
+							<a href="specialities.html" class="short-cardicon">
+								<div class="card">
+									<img src="assets/images/icons8-stethoscope.svg" />
+									<h2>General Medicine</h2>
+								</div>
+							</a>
+						</div>
+						<div class="col-lg-4 col-6 mb-3">
+							<a href="specialities.html" class="short-cardicon">
+								<div class="card">
+									<img src="assets/images/icons8-dental.svg" />
+									<h2>Dental</h2>
+								</div>
+							</a>
+						</div>
+						<div class="col-lg-4 col-6 mb-3">
+							<a href="specialities.html" class="short-cardicon">
+								<div class="card">
+									<img src="assets/images/icons8-heart_with_pulse.svg" />
+									<h2>Cardiology</h2>
+								</div>
+							</a>
+						</div>
+						<div class="col-lg-4 col-6 mb-3">
+							<a href="specialities.html" class="short-cardicon">
+								<div class="card">
+									<img src="assets/images/icons8-lungs.svg" />
+									<h2>Pulmonology</h2>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
 
-        <section >
-            <div class="container">
-                <div class="row d-flex">
-                    <div class="col-lg-12 mx-auto">
-                        <div class="heaidng-sub">
-                            <div class="sub-head">
-                                <div class="row d-flex align-content-center align-items-center" >
-                                    <div class="col-lg-auto col-2">
-                                        <div class="loading loading-box">
-                                            <img class=" hiding-box" data-aos="fade-up" src="assets/images/icons8-syringe.svg">
-                                        </div>
-                                       
-                                    </div>
-                                    <div class="col-lg-6 col-6">
-                                        <div class="loading loading-box">
-                                             <h2 class=" hiding-box" data-aos="fade-up" >Dental Care</h2>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row d-flex loading loading-box">
-                    <div class="col-lg-12 col-12 hiding-box" data-aos="fade-up">
-                        <p>A compassionate humanitarian, dedicated to bringing world-class healthcare within the
-                            economic and geographic reach of millions of patients' best describes Dr. Prathap C Reddy,
-                            Founder Chairman of the Apollo Hospitals Group.</p>
+			<div class="footer space-large-tb100 pb-3 space-sm-tb80">
+				<div class="container">
+					<div class="row d-flex loading loading-box">
+						<div class="col-lg-12 col-12 hiding-box">
+							<div class="card card-span">
+								<div class="row d-flex justify-content-between">
+									<div class="col-lg-2 col-md-6 col-6 pb-lg-2 pb-5">
+										<div class="widget">
+											<h2>Consultations</h2>
+											<ul>
+												<li><a href="">General Medicine</a></li>
+												<li><a href="">Gynaecology & Obstetrics</a></li>
+												<li><a href="">Paediatrics</a></li>
+												<li><a href="">DermatologyENT</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-6 col-6 pb-lg-2 pb-5">
+										<div class="widget">
+											<h2>Diagnostics</h2>
+											<ul>
+												<li><a href="">Laboratory</a></li>
+												<li><a href="">X-Ray</a></li>
+												<li><a href="">ECG</a></li>
+												<li><a href="">TMT</a></li>
+												<li><a href="">Screening Tests</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-6 col-6 pb-lg-2 pb-2">
+										<div class="widget">
+											<h2>Speciality Clinics</h2>
+											<ul>
+												<li><a href="specialities.html">Diabetes</a></li>
+												<li><a href="specialities.html">Allergy & Asthmaa</a></li>
+												<li><a href="specialities.html">Menstrual Health</a></li>
+												<li><a href="specialities.html">Arthritis</a></li>
+												<li><a href="specialities.html">Blood Pressure</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-6 col-6 pb-lg-2 pb-2">
+										<div class="widget">
+											<h2>About us</h2>
+											<ul>
+												<li><a href="">Apollo Clinic</a></li>
+												<li><a href="About-AHLL.html">About AHLL</a></li>
+												<li><a href="">About Apollo group</a></li>
+												<li><a href="">Chairman’s Message</a></li>
+												<li><a href="">Our Team</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-6 col-6 pb-lg-2 pb-2">
+										<div class="widget">
+											<h2>Contact us</h2>
+											<ul>
+												<li><a href="">Feedback</a></li>
+												<li><a href="contact.html">Contact</a></li>
+												<li><a href="">Advertise with us</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-bottom mt-3">
+					<div class="container">
+						<div class="d-flex loading loading-box">
+							<div class="col-lg-12 hiding-box">
+								<div class="row d-flex pt-3 justify-content-center">
+									<ul class="icon-footer-wrap">
+										<li class="icon-footer">
+											<a href="https://www.instagram.com/apolloclinics/" target="_blank"
+												><img src="assets/images/icons8-instagram 1.svg"
+											/></a>
+										</li>
+										<li class="icon-footer">
+											<a href="https://www.youtube.com/@ApolloClinics" target="_blank"
+												><img src="assets/images/icons8-youtube 1.svg"
+											/></a>
+										</li>
+										<li class="icon-footer">
+											<a href="https://www.facebook.com/apolloclinickarama" target="_blank"
+												><img src="assets/images/icons8-facebook 1.svg"
+											/></a>
+										</li>
+									</ul>
+								</div>
+								<p>Copyright © 2023, Apollo Health and Lifestyle Limited, All Rights Reserved.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
 
-                        <p>Dr. Reddy received his medical degree from the Stanley Medical College in Chennai and later
-                            trained as a Cardiologist in the UK and USA. He did his Fellowship from the Massachusetts
-                            General Hospital, Boston and went on to head several research programs at the Missouri State
-                            Chest Hospital, USA where he worked for several years before returning to India in 1971, at
-                            the behest of his father.</p>
+		<!--modal-->
 
+		<!-- Modal Body -->
+		<!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+		<div
+			class="modal fade"
+			id="modalId"
+			tabindex="-1"
+			data-bs-backdrop="static"
+			data-bs-keyboard="false"
+			role="dialog"
+			aria-labelledby="modalTitleId"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<iframe
+							width="100%"
+							height="480"
+							src="https://www.youtube.com/embed/71OpD6Q5c4U"
+							title="YouTube video player"
+							frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+							allowfullscreen
+						></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
 
-                        <p>This act of leading by example in reversing the brain drain eventually became an agenda with
-                            Apollo Hospitals, India's first corporate hospital that heralded the country's burgeoning
-                            private healthcare industry.</p>
-
-
-                        <p>The dream of making world-class medical available in India spurred him to set up the Apollo
-                            Hospitals in Chennai in 1983 at a time when private healthcare institutions were virtually
-                            unknown in our country. The new hospital attracted the best medical talent, including
-                            eminent non-resident Indian doctors from hospitals in the US and UK.
-                        </p>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-
-     
-
-        <section class="space-large-tb50" >
-            <div class="container">
-                <div class="row d-flex">
-                    <div class="col-lg-12 col-md-12 caption-style loading loading-box">
-                        <div class="card bg-theme p-5 jumbotron-fluid  hiding-box">
-                            <div class="container">
-                                <p class="lead fw-bolder "  data-aos="fade-up">“Apollo Clinics was founded in 2002 with the aim “to bring healthcare of international
-                                     standards within the reach of every individual.” To achieve this, Apollo Clinics run a large network of Apollo 
-                                     Clinics with over 102 clinics, 
-                                    both owned and franchised in India and overseas.”</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="space-large-tb50">
-            <div class="container">
-                <div class="row d-flex">
-                    <div class="col-lg-12 mx-auto">
-                        <div class="heaidng-sub   loading loading-box">
-                            <div class="sub-head  hiding-box">
-                                <div class="row d-flex"  data-aos="fade-up">
-                                    <div class="col-lg-6 col-6">
-                                        <h2>We are specialised in </h2>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <p>A compassionate humanitarian, dedicated to bringing world-class healthcare
-                                            within the economic and
-                                            geographic reach of millions of patients' best describes Dr. Prathap C
-                                            Reddy, Founder Chairman of the Apollo Hospitals Group.
-
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="space-large-tb50">
-            <div class="container">
-                <div class="row d-flex">
-                    <div class="col-lg-6 col-12  " data-aos="fade-up">
-                        <div class="Card-type2 loading loading-box">
-                            <div class="card p-lg-5 p-5  hiding-box">
-                                <h2>We are specialised in </h2>
-                                <p>Apollo Clinics was founded in 2002 with the aim “to bring healthcare of international
-                                    standards within the reach of every individual.” To achieve this, Apollo Clinics run
-                                    a
-                                    large
-                                    network of Apollo Clinics with over 102 clinics, both owned and franchised in India
-                                    and
-                                    overseas.
-                                    Apollo Clinics was founded in 2002 with the aim “to bring healthcare of
-                                    international
-                                    standards
-                                    within the reach of every individual.” To achieve this, Apollo Clinics run a large
-                                    network of
-                                    Apollo Clinics with over 102 clinics, both owned and franchised in India and
-                                    overseas.
-                                    <br>
-                                    Apollo Clinics was founded in 2002 with the aim “to bring healthcare of
-                                    international
-                                    standards within the reach of every individual.” To achieve this, Apollo Clinics run
-                                    a
-                                    large
-                                    network of Apollo Clinics with over 102 clinics, both owned and franchised in India
-                                    and
-                                    overseas.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-12"  data-aos="fade-up">
-                        <div class="Card-type2 loading loading-box">
-                            <div class="card p-lg-5 p-5  hiding-box">
-                                <h2>We are specialised in </h2>
-                                <p>Apollo Clinics was founded in 2002 with the aim “to bring healthcare of international
-                                    standards within the reach
-                                    of every individual.” To achieve this, Apollo Clinics run a large network of Apollo
-                                    Clinics with over 102 clinics,
-                                    both owned and franchised in India and overseas. Apollo Clinics was founded in 2002
-                                    with the aim “to bring healthcare
-                                    of international standards within the reach of every individual.” To achieve this,
-                                    Apollo Clinics run a large
-                                    network of Apollo Clinics with over 102 clinics, both owned and franchised in India
-                                    and overseas.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        
-
- 
-
-        <section class="space-large-tb50" >
-            <div class="container">
-                <div class="row d-flex">
-                    <div class="col-lg-12 mx-auto">
-                        <div class="heaidng-sub loading loading-box">
-                            <div class="sub-head hiding-box">
-                                <div class="row d-flex" data-aos="fade-up">
-                                    <div class="col-lg-6 col-6">
-                                        <h2>Apollo Cilinics </h2>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <p>“Apollo Clinics was founded in 2002 with the aim “to bring healthcare of international standards within the reach of every 
-                                            individual.” To achieve this, Apollo Clinics run a large network of Apollo Clinics 
-                                            with over 102 clinics, both owned and franchised in India and overseas.”
-
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row d-flex mt-5">
-                    <div class="widget-list-numberic loading loading-box col-12 mx-auto" data-aos="fade-up">
-                        <ul type="1" class="list-group hiding-box mx-auto">
-                            <li class="list-group-item">
-                                <p>Leverage agile frameworks to provide a robust </p>
-                            </li>
-                            <li class="list-group-item">
-                                <p>Synopsis for high level overviews.</p>
-                            </li>
-                            <li class="list-group-item">
-                                <p>Provide a robust synopsis for high level overviews.</p>
-                             </li>
-                            <li class="list-group-item">
-                                <p>Heading towards a streamlined cloud solution</p>
-                            </li>
-                            <li class="list-group-item">
-                                <p>Heading towards a streamlined cloud solution</p>
-                            </li>
-                            <li class="list-group-item">
-                                <p>Leverage agile frameworks to provide a robust </p>
-                            </li>
-                            <li class="list-group-item">
-                                <p>Synopsis for high level overviews.</p>
-                            </li>
-                            <li class="list-group-item">
-                                <p>Provide a robust synopsis for high level overviews.</p>
-                             </li>
-                            <li class="list-group-item">
-                                <p>Heading towards a streamlined cloud solution</p>
-                            </li>
-                            <li class="list-group-item">
-                                <p>Heading towards a streamlined cloud solution</p>
-                            </li>
-                            
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section> 
-
-   
-        <section class="space-large-tb100 space-mobile-py-60">
-            <div class="container  loading loading-box">
-                <div class="row d-flex  hiding-box" data-aos="fade-up">
-                    <div class="col-lg-4 col-6 mb-3" >
-                        <a href="specialities.html" class="short-cardicon ">
-                            <div class="card">
-                                <img src="assets/images/icons8-pregnant.svg">
-                                <h2>Gynaecology & <br>Obstetrics</h2>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-6 mb-3">
-                        <a href="specialities.html" class="short-cardicon ">
-                            <div class="card">
-                                <img src="assets/images/icons8-baby.svg">
-                                <h2>Pediatrics</h2>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-6 mb-3">
-                        <a href="specialities.html" class="short-cardicon ">
-                            <div class="card">
-                                <img src="assets/images/icons8-stethoscope.svg">
-                                <h2>General Medicine</h2>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-6 mb-3" >
-                        <a href="specialities.html"  class="short-cardicon ">
-                            <div class="card">
-                                <img src="assets/images/icons8-dental.svg">
-                                <h2>Dental</h2>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-6  mb-3">
-                        <a href="specialities.html" class="short-cardicon ">
-                            <div class="card">
-                                <img src="assets/images/icons8-heart_with_pulse.svg">
-                                <h2>Cardiology</h2>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-6  mb-3">
-                        <a href="specialities.html" class="short-cardicon ">
-                            <div class="card">
-                                <img src="assets/images/icons8-lungs.svg">
-                                <h2>Pulmonology</h2>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-   
-
-        <div class="footer space-large-tb100 pb-3 space-sm-tb80" >
-            <div class="container">
-                <div class="row d-flex  loading loading-box">
-                    <div class="col-lg-12 col-12 hiding-box">
-                        <div class="card card-span">
-                            <div class="row d-flex justify-content-between">
-                                <div class="col-lg-2 col-md-6 col-6 pb-lg-2 pb-5">
-                                    <div class="widget">
-                                        <h2>Consultations </h2>
-                                        <ul>
-                                            <li><a href="">General Medicine</a></li>
-                                            <li><a href="">Gynaecology & Obstetrics</a></li>
-                                            <li><a href="">Paediatrics</a></li>
-                                            <li><a href="">DermatologyENT</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-6 col-6 pb-lg-2 pb-5">
-                                    <div class="widget">
-                                        <h2>Diagnostics</h2>
-                                        <ul>
-                                            <li><a href="">Laboratory</a></li>
-                                            <li><a href="">X-Ray</a></li>
-                                            <li><a href="">ECG</a></li>
-                                            <li><a href="">TMT</a></li>
-                                            <li><a href="">Screening Tests</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-6 col-6 pb-lg-2 pb-2">
-                                    <div class="widget">
-                                        
-                                        <h2>Speciality Clinics</h2>
-                                        <ul>
-                                            <li><a href="specialities.html">Diabetes</a></li>
-                                            <li><a href="specialities.html">Allergy & Asthmaa</a></li>
-                                            <li><a href="specialities.html">Menstrual Health</a></li>
-                                            <li><a href="specialities.html">Arthritis</a></li>
-                                            <li><a href="specialities.html">Blood Pressure</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-6 col-6 pb-lg-2 pb-2">
-                                    <div class="widget">
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        <h2>About us</h2>
-                                        <ul>
-                                            <li><a href="">Apollo Clinic</a></li>
-                                            <li><a href="About-AHLL.html">About AHLL</a></li>
-                                            <li><a href="">About Apollo group</a></li>
-                                            <li><a href="">Chairman’s Message</a></li>
-                                            <li><a href="">Our Team</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-6 col-6 pb-lg-2 pb-2">
-                                    <div class="widget">
-                                        
-                                        
-                                        
-                                        
-                                        <h2>Contact us</h2>
-                                        <ul>
-                                            <li><a href="">Feedback</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="">Advertise with us</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom mt-3">
-                <div class="container">
-                    <div class="d-flex loading loading-box">
-                        <div class="col-lg-12  hiding-box">
-                            <div class="row d-flex pt-3 justify-content-center">
-                                <ul class="icon-footer-wrap">
-                                    <li class="icon-footer"> <a href="https://www.instagram.com/apolloclinics/" target="_blank"><img
-                                                src="assets/images/icons8-instagram 1.svg"></a></li>
-                                    <li class="icon-footer"> <a href="https://www.youtube.com/@ApolloClinics" target="_blank"><img
-                                                src="assets/images/icons8-youtube 1.svg"></a></li>
-                                    <li class="icon-footer"> <a href="https://www.facebook.com/apolloclinickarama" target="_blank"><img
-                                                src="assets/images/icons8-facebook 1.svg"></a></li>
-                                </ul>
-                            </div>
-                            <p>Copyright © 2023, Apollo Health and Lifestyle Limited, All Rights Reserved.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </main>
-
-    <!--modal-->
-
-    <!-- Modal Body -->
-    <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
-    <div class="modal fade" id="modalId" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog"
-        aria-labelledby="modalTitleId" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <iframe width="100%" height="480" src="https://www.youtube.com/embed/71OpD6Q5c4U"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-
-    <!--script-->
-    <script src="assets/js/jquery-2.1.3.min.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/aos.js"></script>
-    <script src="assets/js/slick.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/brands.min.js"></script>
-    <script src="assets/js/fontawesome.min.js"></script>
-    <script src="assets/js/regular.min.js"></script>
-    <script src="assets/js/swiper.min.js"></script>
-
-
-</body>
-
+		<!--script-->
+		<script src="assets/js/jquery-2.1.3.min.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script src="assets/js/aos.js"></script>
+		<script src="assets/js/slick.min.js"></script>
+		<script src="assets/js/bootstrap.bundle.min.js"></script>
+		<script src="assets/js/brands.min.js"></script>
+		<script src="assets/js/fontawesome.min.js"></script>
+		<script src="assets/js/regular.min.js"></script>
+		<script src="assets/js/swiper.min.js"></script>
+	</body>
 </html>

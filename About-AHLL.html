@@ -1,388 +1,415 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Appolo Clinic UAE</title>
+		<link rel="icon" type="image/png" sizes="16x16" href="assets/images/appolo.png" />
+		<!--css-->
+		<link href="assets/css/bootstrap.rtl.min.css" rel="stylesheet" />
+		<link href="assets/css/style.css" rel="stylesheet" />
+		<link href="assets/css/aos.css" rel="stylesheet" />
+		<link href="assets/css/slick_slick.css" rel="stylesheet" />
+		<link href="assets/css/all.min.css" rel="stylesheet" />
+		<link href="assets/css/brands.min.css" rel="stylesheet" />
+		<link href="assets/css/solid.min.css" rel="stylesheet" />
+		<link href="assets/css/fontawesome.min.css" rel="stylesheet" />
+		<link href="assets/css/swiper.css" rel="stylesheet" />
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>H-Appolo Clinic</title>
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/appolo.png">
-    <!--css-->
-    <link href="assets/css/bootstrap.rtl.min.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/aos.css" rel="stylesheet">
-    <link href="assets/css/slick_slick.css" rel="stylesheet">
-    <link href="assets/css/all.min.css" rel="stylesheet">
-    <link href="assets/css/brands.min.css" rel="stylesheet">
-    <link href="assets/css/solid.min.css" rel="stylesheet">
-    <link href="assets/css/fontawesome.min.css" rel="stylesheet">
-    <link href="assets/css/swiper.css" rel="stylesheet">
+	<body>
+		<div class="toggle-menu-wrap">
+			<div class="col-12">
+				<ul>
+					<li>
+						<div class="btn-sidebar mx-lg-3 mx-0 loading">
+							<a
+								id="myButton"
+								class="toggle-btn"
+								data-bs-toggle="offcanvas"
+								href="#offcanvasExample"
+								role="button"
+								aria-controls="offcanvasExample"
+								><i class="fa fa-bars"></i
+							></a>
+						</div>
+					</li>
 
-</head>
+					<li class="hide-mobile">
+						<div class="btn-sidebar mx-lg-3 mx-0 loading">
+							<a href="#" class="btn-sidebar loading"
+								><img src="assets/images/icons8-whatsapp 1.svg"
+							/></a>
+						</div>
+					</li>
+					<li class="hide-mobile">
+						<div class="btn-sidebar mx-lg-3 mx-0 loading">
+							<a href="#" class="btn-sidebar loading"><img src="assets/images/icons8-chat 1.svg" /></a>
+						</div>
+					</li>
+					<li class="hide-mobile">
+						<div class="btn-sidebar mx-lg-3 mx-0 loading">
+							<a href="#" class="btn-sidebar loading"
+								><img src="assets/images/icons8-location 1.svg"
+							/></a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="col-12">
+				<ul>
+					<li class="hide-mobile">
+						<div class="btn-sidebar mx-lg-3 mx-0 loading">
+							<!-- <a href="#"><img src="assets/images/mode_comment.svg"></a> -->
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
 
-<body>
+		<div
+			class="offcanvas offcanvas-start custome-sidebar"
+			tabindex="-1"
+			id="offcanvasExample"
+			aria-labelledby="offcanvasExampleLabel"
+		>
+			<div class="offcanvas-body">
+				<div class="nav row d-flex">
+					<div class="menu-item">
+						<ul class="brder-sidebar">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="About-AHLL.html">About Us</a></li>
+							<li><a href="doctors.html">Doctor's</a></li>
+							<li><a href="our-facilities.html">Our Facilities</a></li>
+							<li><a href="specialities.html">Specialities</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+						<ul class="brder-sidebar">
+							<h3>Department</h3>
+							<li><a href="#">Consultations</a></li>
+							<li><a href="#">Diagnostics</a></li>
+							<li><a href="#">Diagnostics</a></li>
+							<li><a href="#">Laboratory</a></li>
+							<li><a href="#">Dental Care</a></li>
+						</ul>
+						<ul class="brder-sidebar">
+							<h3>Speciality Clinics</h3>
+							<li><a href="#">Gynaecology & Obstetrics</a></li>
+							<li><a href="#">Pediatrics</a></li>
+							<li><a href="#">General Medicine</a></li>
+							<li><a href="#">Dental</a></li>
+							<li><a href="#">Cardiology</a></li>
+							<li><a href="#">Pulmonology</a></li>
+						</ul>
+					</div>
+					<div class="col-12 p-0">
+						<div class="social-sidebar">
+							<ul>
+								<li>
+									<a href="https://www.instagram.com/apolloclinics/" target="_blank"
+										><img src="assets/images/icons8-instagram 1-sidebar.svg"
+									/></a>
+								</li>
+								<li>
+									<a href="https://www.youtube.com/@ApolloClinics" target="_blank"
+										><img src="assets/images/icons8-youtube 1-sidebar.svg"
+									/></a>
+								</li>
+								<li>
+									<a href="https://www.facebook.com/apolloclinickarama" target="_blank"
+										><img src="assets/images/icons8-facebook 1-sidebar.svg"
+									/></a>
+								</li>
+							</ul>
+							<div class="col-lg-10 col-9">
+								<p>© 2023, Apollo Health and Lifestyle Limited, All Rights Reserved.</p>
+							</div>
+						</div>
+						<div class="side-bar-footer">
+							<div class="sidebar-logo d-flex justify-content-end">
+								<div class="col-lg-6 col-6 mx-0">
+									<img class="w-100" src="assets/images/Logo-sidebar.svg" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-    <div class="toggle-menu-wrap">
-        <div class="col-12">
-            <ul>
-                <li>
-                    <div class="btn-sidebar mx-lg-3 mx-0 loading">
-                        <a id="myButton" class="toggle-btn" data-bs-toggle="offcanvas" href="#offcanvasExample"
-                            role="button" aria-controls="offcanvasExample"><i class="fa fa-bars"></i></a>
-                    </div>
-                </li>
+		<main class="Content">
+			<header>
+				<div class="container">
+					<div class="row d-flex align-content-center align-items-center space-fixed-header pt-3">
+						<div class="col-lg-2 col-4">
+							<div class="loading-head loading">
+								<a class="brand" href="index.html"><img src="assets/images/Logo.svg" /></a>
+							</div>
+						</div>
+						<div class="col-lg-2 col-6">
+							<div class="loading-head loading">
+								<a href="https://wa.me/+97146056056" class="btn-style large">Book an Appointment</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<section class="space-large-tb100 pt-lg-3 pt-5">
+				<div class="container">
+					<div class="loading breadcrumb-wrap">
+						<div class="row d-flex breadcrumb-row" data-aos="fade-up">
+							<nav aria-label="breadcrumb">
+								<ol class="breadcrumb">
+									<li class="breadcrumb-item">
+										<a href="index.html"><i class="fa fa-home"></i> Home</a>
+									</li>
+									<li class="breadcrumb-item active" aria-current="page">About</li>
+								</ol>
+							</nav>
+							<div class="col-lg-12">
+								<div class="heading-main">
+									<h2>About Apollo Clinic</h2>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
-                <li class="hide-mobile">
-                    <div class="btn-sidebar mx-lg-3 mx-0 loading">
-                        <a href="#" class=" btn-sidebar loading"><img src="assets/images/icons8-whatsapp 1.svg"></a>
-                    </div>
-                </li>
-                <li class="hide-mobile">
-                    <div class="btn-sidebar mx-lg-3 mx-0 loading">
-                        <a href="#" class=" btn-sidebar loading"><img src="assets/images/icons8-chat 1.svg"></a>
-                    </div>
-                </li>
-                <li class="hide-mobile">
-                    <div class="btn-sidebar mx-lg-3 mx-0 loading">
-                        <a href="#" class=" btn-sidebar loading"><img src="assets/images/icons8-location 1.svg"></a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class="col-12">
-            <ul>
-                <li class="hide-mobile">
-                    <div class="btn-sidebar mx-lg-3 mx-0 loading">
-                        <!-- <a href="#"><img src="assets/images/mode_comment.svg"></a> -->
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
+			<section class="space-large-tb100 py-5">
+				<div class="container">
+					<div class="row d-flex loading loading-box" data-aos="fade-up">
+						<div class="nav-page hiding-box">
+							<ul>
+								<li><a class="btn btn-primary active" href="#" role="button">About us</a></li>
+								<li><a class="btn btn-primary" href="#" role="button">About AHLL</a></li>
+								<li><a class="btn btn-primary" href="#" role="button">Apollo Group</a></li>
+								<li><a class="btn btn-primary" href="#" role="button">Chairman’s Message</a></li>
+								<li><a class="btn btn-primary" href="#" role="button">Our Team</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
 
+			<section data-aos="fade-up">
+				<div class="container">
+					<div class="row d-flex loading loading-box">
+						<div class="inner-banner hiding-box">
+							<img src="assets/images/banner-inner.jpg" />
+						</div>
+					</div>
+				</div>
+			</section>
 
-    <div class="offcanvas offcanvas-start custome-sidebar" tabindex="-1" id="offcanvasExample"
-        aria-labelledby="offcanvasExampleLabel">
-        <div class="offcanvas-body">
-            <div class="nav row d-flex">
+			<section data-aos="fade-up" class="pt-4">
+				<div class="container">
+					<div class="row d-flex">
+						<div class="col-lg-12 mx-auto loading loading-box">
+							<div class="heaidng-sub hiding-box">
+								<h3>
+									Apollo Clinics are multi-specialty clinics run by Apollo Health & Lifestyle Limited
+									(AHLL), a subsidiary of Apollo Hospitals Enterprise Limited (AHEL). AHLL is one of
+									the largest players in the retail healthcare segment in India.
+								</h3>
+								<p>
+									Apollo Clinics was founded in 2002 with the aim “to bring healthcare of
+									international standards within the reach of every individual.” To achieve this,
+									Apollo Clinics run a large network of Apollo Clinics with over 102 clinics, both
+									owned and franchised in India and overseas.
+									<br />
+									Each Apollo Clinic is committed to not only providing consistently superior quality
+									health care services but also addressing the day-to-day health care needs of the
+									family. To maximize convenience and comfort, Apollo Clinic is an integrated model
+									and offers facilities for Specialist Consultation, Diagnostics, Preventive Health
+									Checks and Pharmacy, all under one roof.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
-                <div class="menu-item">
-                    <ul class="brder-sidebar ">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="About-AHLL.html">About Us</a></li>
-                        <li><a href="doctors.html">Doctor's</a></li>
-                        <li><a href="our-facilities.html">Our Facilities</a></li>
-                        <li><a href="specialities.html">Specialities</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                    <ul class="brder-sidebar ">
-                      <h3> Department </h3>
-                        <li><a href="#">Consultations</a></li>
-                        <li><a href="#">Diagnostics</a></li>
-                        <li><a href="#">Diagnostics</a></li>
-                        <li><a href="#">Laboratory</a></li>
-                        <li><a href="#">Dental Care</a></li>
-                    </ul>
-                    <ul class="brder-sidebar ">
-                        <h3> Speciality Clinics </h3>
-                          <li><a href="#">Gynaecology & Obstetrics</a></li>
-                          <li><a href="#">Pediatrics</a></li>
-                          <li><a href="#">General Medicine</a></li>
-                          <li><a href="#">Dental</a></li>
-                          <li><a href="#">Cardiology</a></li>
-                          <li><a href="#">Pulmonology</a></li>
-                      </ul>
-                </div>
-                <div class="col-12 p-0">
-                    <div class="social-sidebar">
-                        <ul>
-                            <li><a href="https://www.instagram.com/apolloclinics/" target="_blank"><img src="assets/images/icons8-instagram 1-sidebar.svg"></a></li>
-                            <li><a href="https://www.youtube.com/@ApolloClinics" target="_blank"><img src="assets/images/icons8-youtube 1-sidebar.svg"></a></li>
-                            <li><a href="https://www.facebook.com/apolloclinickarama" target="_blank"><img src="assets/images/icons8-facebook 1-sidebar.svg"></a></li>
-                        </ul>
-                        <div class="col-lg-10 col-9">
-                            <p> © 2023, Apollo Health and Lifestyle Limited, All Rights Reserved.</p>
-                        </div>
-                    </div>
-                    <div class="side-bar-footer">
+			<section data-aos="fade-up">
+				<div class="container">
+					<div class="row d-flex pt-4">
+						<div class="col-lg-8 mx-auto loading loading-box">
+							<div class="video-wrap hiding-box">
+								<a data-bs-toggle="modal" data-bs-target="#modalId" class="play-btn">
+									<span></span>
+									<span></span>
+									<span></span>
+									<div class="icon-play"><img src="assets/images/Paly Button.svg" /></div>
+								</a>
+								<img src="assets/images/Photo-viewo-about.jpg" alt="" />
+							</div>
+						</div>
+					</div>
+					<div class="row d-flex pt-4">
+						<div class="col-lg-8 mx-auto loading loading-box">
+							<div class="heaidng-sub hiding-box">
+								<h3>
+									Apollo Clinics are multi-specialty clinics run by Apollo Health & Lifestyle Limited
+									(AHLL), a subsidiary of Apollo Hospitals Enterprise Limited (AHEL). AHLL is one of
+									the largest players in the retail healthcare segment in India.
+								</h3>
+								<p>
+									Apollo Clinics was founded in 2002 with the aim “to bring healthcare of
+									international standards within the reach of every individual.” To achieve this,
+									Apollo Clinics run a large network of Apollo Clinics with over 102 clinics, both
+									owned and franchised in India and overseas.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
-                        <div class="sidebar-logo d-flex justify-content-end">
-                            <div class="col-lg-6 col-6 mx-0">
-                                <img class="w-100" src="assets/images/Logo-sidebar.svg">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+			<div class="footer space-large-tb100 pb-3 space-sm-tb80">
+				<div class="container">
+					<div class="row d-flex loading loading-box">
+						<div class="col-lg-12 col-12 hiding-box">
+							<div class="card card-span">
+								<div class="row d-flex justify-content-between">
+									<div class="col-lg-2 col-md-6 col-6 pb-lg-2 pb-5">
+										<div class="widget">
+											<h2>Consultations</h2>
+											<ul>
+												<li><a href="">General Medicine</a></li>
+												<li><a href="">Gynaecology & Obstetrics</a></li>
+												<li><a href="">Paediatrics</a></li>
+												<li><a href="">DermatologyENT</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-6 col-6 pb-lg-2 pb-5">
+										<div class="widget">
+											<h2>Diagnostics</h2>
+											<ul>
+												<li><a href="">Laboratory</a></li>
+												<li><a href="">X-Ray</a></li>
+												<li><a href="">ECG</a></li>
+												<li><a href="">TMT</a></li>
+												<li><a href="">Screening Tests</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-6 col-6 pb-lg-2 pb-2">
+										<div class="widget">
+											<h2>Speciality Clinics</h2>
+											<ul>
+												<li><a href="specialities.html">Diabetes</a></li>
+												<li><a href="specialities.html">Allergy & Asthmaa</a></li>
+												<li><a href="specialities.html">Menstrual Health</a></li>
+												<li><a href="specialities.html">Arthritis</a></li>
+												<li><a href="specialities.html">Blood Pressure</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-6 col-6 pb-lg-2 pb-2">
+										<div class="widget">
+											<h2>About us</h2>
+											<ul>
+												<li><a href="">Apollo Clinic</a></li>
+												<li><a href="About-AHLL.html">About AHLL</a></li>
+												<li><a href="">About Apollo group</a></li>
+												<li><a href="">Chairman’s Message</a></li>
+												<li><a href="">Our Team</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-6 col-6 pb-lg-2 pb-2">
+										<div class="widget">
+											<h2>Contact us</h2>
+											<ul>
+												<li><a href="">Feedback</a></li>
+												<li><a href="contact.html">Contact</a></li>
+												<li><a href="">Advertise with us</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-bottom mt-3">
+					<div class="container">
+						<div class="d-flex loading loading-box">
+							<div class="col-lg-12 hiding-box">
+								<div class="row d-flex pt-3 justify-content-center">
+									<ul class="icon-footer-wrap">
+										<li class="icon-footer">
+											<a href="https://www.instagram.com/apolloclinics/" target="_blank"
+												><img src="assets/images/icons8-instagram 1.svg"
+											/></a>
+										</li>
+										<li class="icon-footer">
+											<a href="https://www.youtube.com/@ApolloClinics" target="_blank"
+												><img src="assets/images/icons8-youtube 1.svg"
+											/></a>
+										</li>
+										<li class="icon-footer">
+											<a href="https://www.facebook.com/apolloclinickarama" target="_blank"
+												><img src="assets/images/icons8-facebook 1.svg"
+											/></a>
+										</li>
+									</ul>
+								</div>
+								<p>Copyright © 2023, Apollo Health and Lifestyle Limited, All Rights Reserved.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
 
-    <main class="Content">
+		<!--modal-->
 
-        <header>
-            <div class="container">
-                <div class="row d-flex align-content-center align-items-center space-fixed-header pt-3">
-                    <div class="col-lg-2 col-4">
-                        <div class="loading-head loading">
-                            <a class="brand" href="index.html"><img src="assets/images/Logo.svg"></a>
-                        </div>
+		<!-- Modal Body -->
+		<!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+		<div
+			class="modal videomodal fade"
+			id="modalId"
+			tabindex="-1"
+			data-bs-backdrop="static"
+			data-bs-keyboard="false"
+			role="dialog"
+			aria-labelledby="modalTitleId"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<video
+							fullscreen
+							controls="true"
+							id="myVideo"
+							acontrols
+							controlsList="nodownload"
+							muted
+							width="100%"
+							loop
+						>
+							<source src="assets/images/apollo-clicnic-dubai.mp4" type="video/mp4" />
+						</video>
+					</div>
+				</div>
+			</div>
+		</div>
 
-                    </div>
-                    <div class="col-lg-2 col-6">
-                        <div class="loading-head loading">
-                            <a href="https://wa.me/+97146056056" class="btn-style large">Book an Appointment</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <section class="space-large-tb100 pt-lg-3 pt-5">
-            <div class="container">
-                <div class="loading breadcrumb-wrap">
-                    <div class="row d-flex breadcrumb-row" data-aos="fade-up">
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">About</li>
-                            </ol>
-                        </nav>
-                        <div class="col-lg-12">
-                            <div class="heading-main">
-                                <h2>About Apollo Clinic</h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="space-large-tb100 py-5">
-            <div class="container">
-                <div class="row d-flex loading loading-box" data-aos="fade-up">
-                    <div class="nav-page hiding-box">
-                        <ul>
-                            <li><a class="btn btn-primary active" href="#" role="button">About us</a></li>
-                            <li><a class="btn btn-primary" href="#" role="button">About AHLL</a></li>
-                            <li><a class="btn btn-primary" href="#" role="button">Apollo Group</a></li>
-                            <li><a class="btn btn-primary" href="#" role="button">Chairman’s Message</a></li>
-                            <li><a class="btn btn-primary" href="#" role="button">Our Team</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section data-aos="fade-up">
-            <div class="container">
-                <div class="row d-flex  loading loading-box">
-                    <div class="inner-banner hiding-box">
-                        <img src="assets/images/banner-inner.jpg">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section data-aos="fade-up" class="pt-4">
-            <div class="container">
-                <div class="row d-flex">
-                    <div class="col-lg-12 mx-auto  loading loading-box">
-                        <div class="heaidng-sub hiding-box">
-                            <h3>
-                                Apollo Clinics are multi-specialty clinics run by Apollo Health & Lifestyle Limited
-                                (AHLL), a subsidiary of Apollo Hospitals Enterprise Limited (AHEL). AHLL is one of the
-                                largest players in the retail healthcare segment in India.
-                            </h3>
-                            <p>
-                                Apollo Clinics was founded in 2002 with the aim “to bring healthcare of international
-                                standards within the reach of every individual.” To achieve this, Apollo Clinics run a
-                                large network of Apollo Clinics with over 102 clinics, both owned and franchised in
-                                India and overseas.
-                                <br>
-                                Each Apollo Clinic is committed to not only providing consistently superior quality
-                                health care services but also addressing the day-to-day health care needs of the family.
-                                To maximize convenience and comfort, Apollo Clinic is an integrated model and offers
-                                facilities for Specialist Consultation, Diagnostics, Preventive Health Checks and
-                                Pharmacy, all under one roof.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section data-aos="fade-up" >
-            <div class="container">
-                <div class="row d-flex pt-4">
-                    <div class="col-lg-8 mx-auto  loading loading-box">
-                        <div class="video-wrap hiding-box">
-                            <a data-bs-toggle="modal" data-bs-target="#modalId" class="play-btn">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                                <div class="icon-play"> <img src="assets/images/Paly Button.svg"></div>
-                            </a>
-                            <img src="assets/images/Photo-viewo-about.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="row d-flex pt-4">
-                    <div class="col-lg-8 mx-auto  loading loading-box">
-                        <div class="heaidng-sub  hiding-box">
-                            <h3>Apollo Clinics are multi-specialty clinics run by Apollo Health & Lifestyle Limited
-                                (AHLL), a subsidiary of Apollo Hospitals Enterprise Limited (AHEL). AHLL is one of the
-                                largest players in the retail healthcare segment in India.
-                            </h3>
-                            <p>
-                                Apollo Clinics was founded in 2002 with the aim “to bring healthcare of international
-                                standards within the reach of every individual.” To achieve this, Apollo Clinics run a
-                                large network of Apollo Clinics with over 102 clinics, both owned and franchised in
-                                India and overseas.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <div class="footer space-large-tb100 pb-3 space-sm-tb80" >
-            <div class="container">
-                <div class="row d-flex  loading loading-box">
-                    <div class="col-lg-12 col-12 hiding-box">
-                        <div class="card card-span">
-                            <div class="row d-flex justify-content-between">
-                                <div class="col-lg-2 col-md-6 col-6 pb-lg-2 pb-5">
-                                    <div class="widget">
-                                        <h2>Consultations </h2>
-                                        <ul>
-                                            <li><a href="">General Medicine</a></li>
-                                            <li><a href="">Gynaecology & Obstetrics</a></li>
-                                            <li><a href="">Paediatrics</a></li>
-                                            <li><a href="">DermatologyENT</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-6 col-6 pb-lg-2 pb-5">
-                                    <div class="widget">
-                                        <h2>Diagnostics</h2>
-                                        <ul>
-                                            <li><a href="">Laboratory</a></li>
-                                            <li><a href="">X-Ray</a></li>
-                                            <li><a href="">ECG</a></li>
-                                            <li><a href="">TMT</a></li>
-                                            <li><a href="">Screening Tests</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-6 col-6 pb-lg-2 pb-2">
-                                    <div class="widget">
-                                        
-                                        <h2>Speciality Clinics</h2>
-                                        <ul>
-                                            <li><a href="specialities.html">Diabetes</a></li>
-                                            <li><a href="specialities.html">Allergy & Asthmaa</a></li>
-                                            <li><a href="specialities.html">Menstrual Health</a></li>
-                                            <li><a href="specialities.html">Arthritis</a></li>
-                                            <li><a href="specialities.html">Blood Pressure</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-6 col-6 pb-lg-2 pb-2">
-                                    <div class="widget">
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        <h2>About us</h2>
-                                        <ul>
-                                            <li><a href="">Apollo Clinic</a></li>
-                                            <li><a href="About-AHLL.html">About AHLL</a></li>
-                                            <li><a href="">About Apollo group</a></li>
-                                            <li><a href="">Chairman’s Message</a></li>
-                                            <li><a href="">Our Team</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-6 col-6 pb-lg-2 pb-2">
-                                    <div class="widget">
-                                        
-                                        
-                                        
-                                        
-                                        <h2>Contact us</h2>
-                                        <ul>
-                                            <li><a href="">Feedback</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="">Advertise with us</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom mt-3">
-                <div class="container">
-                    <div class="d-flex loading loading-box">
-                        <div class="col-lg-12  hiding-box">
-                            <div class="row d-flex pt-3 justify-content-center">
-                                <ul class="icon-footer-wrap">
-                                    <li class="icon-footer"> <a href="https://www.instagram.com/apolloclinics/" target="_blank"><img
-                                                src="assets/images/icons8-instagram 1.svg"></a></li>
-                                    <li class="icon-footer"> <a href="https://www.youtube.com/@ApolloClinics" target="_blank"><img
-                                                src="assets/images/icons8-youtube 1.svg"></a></li>
-                                    <li class="icon-footer"> <a href="https://www.facebook.com/apolloclinickarama" target="_blank"><img
-                                                src="assets/images/icons8-facebook 1.svg"></a></li>
-                                </ul>
-                            </div>
-                            <p>Copyright © 2023, Apollo Health and Lifestyle Limited, All Rights Reserved.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-    </main>
-
-    <!--modal-->
-
-    <!-- Modal Body -->
-    <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
-    <div class="modal videomodal fade" id="modalId" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog"
-        aria-labelledby="modalTitleId" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <video fullscreen controls="true" id="myVideo" acontrols controlsList="nodownload" muted width="100%" loop>
-                        <source src="assets/images/apollo-clicnic-dubai.mp4" type="video/mp4">
-                      </video> 
-                    
-                    </div>
-            </div>
-        </div>
-    </div>
-
-
-
-
-    <!--script-->
-    <script src="assets/js/jquery-2.1.3.min.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/aos.js"></script>
-    <script src="assets/js/slick.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/brands.min.js"></script>
-    <script src="assets/js/fontawesome.min.js"></script>
-    <script src="assets/js/regular.min.js"></script>
-    <script src="assets/js/swiper.min.js"></script>
-
-
-</body>
-
+		<!--script-->
+		<script src="assets/js/jquery-2.1.3.min.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script src="assets/js/aos.js"></script>
+		<script src="assets/js/slick.min.js"></script>
+		<script src="assets/js/bootstrap.bundle.min.js"></script>
+		<script src="assets/js/brands.min.js"></script>
+		<script src="assets/js/fontawesome.min.js"></script>
+		<script src="assets/js/regular.min.js"></script>
+		<script src="assets/js/swiper.min.js"></script>
+	</body>
 </html>
