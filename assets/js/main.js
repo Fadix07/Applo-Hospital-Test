@@ -348,9 +348,7 @@ const renderCard = () => {
 	});
 };
 
-setTimeout(() => {
-	renderCard();
-}, 2000);
+renderCard();
 
 //scrolling text
 
