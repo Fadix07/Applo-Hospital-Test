@@ -1389,35 +1389,35 @@
     <script src="assets/js/regular.min.js"></script>
     <script src="assets/js/swiper.min.js"></script>
     <script>
-        $(document).ready(function () {
-            $.ajax({
-                url: "https://vafadmsgquekaenrjbkq.supabase.co/rest/v1/doctors?is_featured=eq.true",
-                type: "GET",
-                headers: {
-                    apiKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZhZmFkbXNncXVla2FlbnJqYmtxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDg0NjcwNDgsImV4cCI6MjA2NDA0MzA0OH0.1WLAX2bGHLHPXqas_USru1Yy2E63I8mWzuqeQ5v7Kio",
-                },
-                success: function (response) {
-                    response.forEach(function (doctor) {
-                        $("#doctor-cardgrid").append(`
-                        <div class="col-lg-4 col-6 mb-3">
-                        <div class=" loading-box">
-                            <div class="doctor-cardgrid">
-                                <div class="card" style="overflow: hidden; height: 300px;">
-                                    <img src="${doctor.image_url}" />
-                                </div>
-                                <div class="text-box">
-                                    <h2>${doctor.name}</h2>
-                                    <h3>${doctor.specialty}</h3>
-                                </div>
+        // $(document).ready(function () {
+        //     $.ajax({
+        //         url: "https://vafadmsgquekaenrjbkq.supabase.co/rest/v1/doctors?is_featured=eq.true",
+        //         type: "GET",
+        //         headers: {
+        //             apiKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZhZmFkbXNncXVla2FlbnJqYmtxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDg0NjcwNDgsImV4cCI6MjA2NDA0MzA0OH0.1WLAX2bGHLHPXqas_USru1Yy2E63I8mWzuqeQ5v7Kio",
+        //         },
+        //         success: function (response) {
+        //             response.forEach(function (doctor) {
+        //                 $("#doctor-cardgrid").append(`
+        //                 <div class="col-lg-4 col-6 mb-3">
+        //                 <div class=" loading-box">
+        //                     <div class="doctor-cardgrid">
+        //                         <div class="card" style="overflow: hidden; height: 300px;">
+        //                             <img src="${doctor.image_url}" />
+        //                         </div>
+        //                         <div class="text-box">
+        //                             <h2>${doctor.name}</h2>
+        //                             <h3>${doctor.specialty}</h3>
+        //                         </div>
                             
-                            </div>
-                        </div>
-                    </div>
-                        `);
-                    });
-                },
-            });
-        });
+        //                     </div>
+        //                 </div>
+        //             </div>
+        //                 `);
+        //             });
+        //         },
+        //     });
+        // });
     </script>
 
 
