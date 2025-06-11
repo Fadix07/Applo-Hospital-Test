@@ -348,6 +348,10 @@ const renderCard = () => {
 	});
 };
 
+// disabled loading time
+// setTimeout(() => {
+// 	renderCard();
+// }, 2000);
 renderCard();
 
 //scrolling text
