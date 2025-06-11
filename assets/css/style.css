@@ -2326,7 +2326,7 @@ label{
     display: none;
 }
 .insurance-section .card-insurance:hover .insurance-content{
-    display: flex;
+    display: none;
     justify-content:left;
     align-items: center;
     align-content: center;
