@@ -913,7 +913,9 @@ video::-webkit-media-controls-panel {
  }
  .doctor-card .doctor-image img{
     width: 100%;
-    position:relative;
+    height: 100%;
+    object-fit: contain !important;
+    object-position: center;
  }
  .doctor-card h3{
     font-style: normal;
@@ -2408,4 +2410,164 @@ label{
     align-items: center;
     margin: 0 9px;
     align-content: center;
+}
+
+/* Horizontal scrolling doctor cards */
+.doctor-scroll-container {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 20px 0;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+.doctor-scroll-container::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+}
+
+.doctor-scroll-wrapper {
+    display: flex;
+    gap: 20px;
+    padding: 0 20px;
+    min-width: max-content;
+}
+
+.doctor-card-item {
+    flex: 0 0 auto;
+    width: 750px;
+}
+
+.doctor-card-item .doctor-card {
+    margin: 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 350px !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.doctor-card-item .doctor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.doctor-card-item .doctor-card .doctor-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.doctor-card-item .doctor-card .doctor-content h2 {
+    margin-bottom: 10px;
+}
+
+.doctor-card-item .doctor-card .doctor-content h3 {
+    margin-bottom: 10px;
+}
+
+.doctor-card-item .doctor-card .doctor-content p {
+    flex: 1;
+    margin-bottom: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+}
+
+.doctor-card-item .doctor-card .doctor-image {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.doctor-card-item .doctor-card .doctor-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain !important;
+    object-position: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .doctor-card-item {
+        width: 450px;
+    }
+    
+    .doctor-scroll-wrapper {
+        gap: 15px;
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .doctor-card-item {
+        width: 380px;
+    }
+    
+    .doctor-scroll-wrapper {
+        gap: 10px;
+        padding: 0 10px;
+    }
+}
+
+/* Doctor navigation controls */
+.control-service .doctor-prev,
+.control-service .doctor-next {
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+    transform: none;
+    width: 40px;
+    height: 40px;
+    background: #007bff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 0 5px;
+    z-index: 10;
+}
+
+.control-service .doctor-prev:hover,
+.control-service .doctor-next:hover {
+    background: #0056b3;
+    transform: scale(1.1);
+}
+
+.control-service .doctor-prev i,
+.control-service .doctor-next i {
+    font-size: 16px;
+    color: white;
+}
+
+.control-service .doctor-prev:after,
+.control-service .doctor-next:after {
+    display: none;
+}
+
+/* Position the controls relative to the scroll container */
+.doctor-scroll-container {
+    position: relative;
+}
+
+/* Responsive adjustments for controls */
+@media (max-width: 768px) {
+    .control-service .doctor-prev,
+    .control-service .doctor-next {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .control-service .doctor-prev i,
+    .control-service .doctor-next i {
+        font-size: 14px;
+    }
 }
